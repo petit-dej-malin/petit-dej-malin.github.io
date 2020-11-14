@@ -1,4 +1,4 @@
-// TODO: Rajouter des bruits de miettes, du sucre qui colle, et un CD de démo pour la playstation dans le paquet
+// TODO: Rajouter des bruits de miettes, du sucre qui colle, et un CD de démo playstation dans le paquet
 
 var canvas = document.getElementById("renderCanvas");
 var engine = new BABYLON.Engine(canvas, true);
