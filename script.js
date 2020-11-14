@@ -33,7 +33,7 @@ var createScene = function () {
 
     BABYLON.SceneLoader.Append("", "nestreats.babylon", scene, function () {
         var light = scene.lights[0];
-        light.intensity = 1.8;
+        light.intensity = 1.5;
 
         mesh_camRig = scene.getMeshByName("Cam Rig");
         camera_main = scene.getCameraByName("Main Camera");
@@ -46,7 +46,7 @@ var createScene = function () {
             }
         });
 
-        scene.ambientColor = new BABYLON.Color3(1,1,1);
+        scene.ambientColor = new BABYLON.Color3(1.4, 1.4, 1.4);
     
         mesh_camRig.rotation = new BABYLON.Vector3(0, 0, 0);
 
